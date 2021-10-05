@@ -20,3 +20,8 @@ services:
       - db:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: db_password
+
+volumes:
+  db:
+
+

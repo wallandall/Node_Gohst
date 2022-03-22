@@ -16,4 +16,4 @@ If you run ```docker-compose ps``` you will see two instances, one for Ghost and
 
 To confirm the volumes are created, run ```docker volume ls``` and you will see two volumes , ghost_ghost-volume and ghost_msql-volume.
 
-To view the networks run ```docker netwk ls``` , this will list the two bridge networks created by the compose file
+To view the networks run ```docker network ls``` , this will list the two bridge networks created by the compose file
